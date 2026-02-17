@@ -1,0 +1,240 @@
+{
+    "statistics": {
+        "models": {
+            "yolo": {
+                "detection_rate": 0.0,
+                "avg_confidence": 0.0,
+                "max_confidence": 0,
+                "min_confidence": 0
+            },
+            "pytorch": {
+                "detection_rate": 1.0,
+                "avg_confidence": 0.7296473383903503,
+                "max_confidence": 0.7296473383903503,
+                "min_confidence": 0.7296473383903503
+            },
+            "keras": {
+                "detection_rate": 1.0,
+                "avg_confidence": 0.8298951983451843,
+                "max_confidence": 0.9896864295005798,
+                "min_confidence": 0.7499995827674866
+            },
+            "yolov5s": {
+                "detection_rate": 0.6666666666666666,
+                "avg_confidence": 0.5243744850158691,
+                "max_confidence": 0.5243746638298035,
+                "min_confidence": 0.5243743062019348
+            },
+            "yolov8s": {
+                "detection_rate": 0.6666666666666666,
+                "avg_confidence": 0.3441077470779419,
+                "max_confidence": 0.3441077470779419,
+                "min_confidence": 0.3441077470779419
+            },
+            "yolov11s": {
+                "detection_rate": 0.6666666666666666,
+                "avg_confidence": 0.3441077470779419,
+                "max_confidence": 0.3441077470779419,
+                "min_confidence": 0.3441077470779419
+            }
+        },
+        "total_detections": 3,
+        "total_images": 3
+    },
+    "recent_detections": [
+        {
+            "timestamp": "2025-04-09T00:54:00.456868",
+            "image_name": "istockphoto-871203794-612x612.jpg",
+            "models": {
+                "yolov5s": {
+                    "detected": true,
+                    "confidence": 0.5243743062019348
+                },
+                "yolov8s": {
+                    "detected": true,
+                    "confidence": 0.3441077470779419
+                },
+                "yolov11s": {
+                    "detected": true,
+                    "confidence": 0.3441077470779419
+                },
+                "keras": {
+                    "detected": true,
+                    "confidence": 0.7499995827674866
+                }
+            },
+            "agreement": {
+                "count": 4,
+                "total_models": 4,
+                "percentage": 100.0,
+                "all_agree": true,
+                "majority_agree": true,
+                "any_detected": true
+            },
+            "yolov5s_detections": [
+                {
+                    "category": "knife",
+                    "specific_type": "knife",
+                    "confidence": 0.5243743062019348,
+                    "coordinates": {
+                        "x": 303.83697509765625,
+                        "y": 79.07740783691406,
+                        "width": 250.3431396484375,
+                        "height": 152.8920135498047
+                    },
+                    "model": "YOLOv5s"
+                }
+            ],
+            "yolov8s_detections": [
+                {
+                    "category": "knife",
+                    "specific_type": "knife",
+                    "confidence": 0.3441077470779419,
+                    "coordinates": {
+                        "x": 282.5971984863281,
+                        "y": 91.7049789428711,
+                        "width": 266.1288146972656,
+                        "height": 133.12472534179688
+                    },
+                    "model": "YOLOv8s"
+                }
+            ],
+            "yolov11s_detections": [
+                {
+                    "category": "knife",
+                    "specific_type": "knife",
+                    "confidence": 0.3441077470779419,
+                    "coordinates": {
+                        "x": 282.5971984863281,
+                        "y": 91.7049789428711,
+                        "width": 266.1288146972656,
+                        "height": 133.12472534179688
+                    },
+                    "model": "YOLOv11s"
+                }
+            ],
+            "keras_detections": [
+                {
+                    "category": "weapon",
+                    "confidence": 0.7499995827674866,
+                    "coordinates": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 612,
+                        "height": 408
+                    },
+                    "model": "Keras"
+                }
+            ]
+        },
+        {
+            "timestamp": "2025-04-09T00:53:21.417815",
+            "image_name": "istockphoto-871203794-612x612.jpg",
+            "models": {
+                "yolov5s": {
+                    "detected": true,
+                    "confidence": 0.5243746638298035
+                },
+                "yolov8s": {
+                    "detected": true,
+                    "confidence": 0.3441077470779419
+                },
+                "yolov11s": {
+                    "detected": true,
+                    "confidence": 0.3441077470779419
+                },
+                "keras": {
+                    "detected": true,
+                    "confidence": 0.7499995827674866
+                }
+            },
+            "agreement": {
+                "count": 4,
+                "total_models": 4,
+                "percentage": 100.0,
+                "all_agree": true,
+                "majority_agree": true,
+                "any_detected": true
+            },
+            "yolov5s_detections": [
+                {
+                    "category": "knife",
+                    "specific_type": "knife",
+                    "confidence": 0.5243746638298035,
+                    "coordinates": {
+                        "x": 303.8369445800781,
+                        "y": 79.07740020751953,
+                        "width": 250.34317016601562,
+                        "height": 152.89202880859375
+                    },
+                    "model": "YOLOv5s"
+                }
+            ],
+            "yolov8s_detections": [
+                {
+                    "category": "knife",
+                    "specific_type": "knife",
+                    "confidence": 0.3441077470779419,
+                    "coordinates": {
+                        "x": 282.5971984863281,
+                        "y": 91.7049789428711,
+                        "width": 266.1288146972656,
+                        "height": 133.12472534179688
+                    },
+                    "model": "YOLOv8s"
+                }
+            ],
+            "yolov11s_detections": [
+                {
+                    "category": "knife",
+                    "specific_type": "knife",
+                    "confidence": 0.3441077470779419,
+                    "coordinates": {
+                        "x": 282.5971984863281,
+                        "y": 91.7049789428711,
+                        "width": 266.1288146972656,
+                        "height": 133.12472534179688
+                    },
+                    "model": "YOLOv11s"
+                }
+            ],
+            "keras_detections": [
+                {
+                    "category": "weapon",
+                    "confidence": 0.7499995827674866,
+                    "coordinates": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 612,
+                        "height": 408
+                    },
+                    "model": "Keras"
+                }
+            ]
+        },
+        {
+            "timestamp": "2025-04-08T23:52:45.916683",
+            "image_name": "bandook.jpg",
+            "models": {
+                "yolo": {
+                    "detected": false,
+                    "confidence": 0
+                },
+                "pytorch": {
+                    "detected": true,
+                    "confidence": 0.7296473383903503
+                },
+                "keras": {
+                    "detected": true,
+                    "confidence": 0.9896864295005798
+                }
+            },
+            "agreement": {
+                "count": 2,
+                "percentage": 66.66666666666666,
+                "all_agree": false,
+                "any_detected": true
+            }
+        }
+    ]
+}

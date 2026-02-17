@@ -1,0 +1,27 @@
+{
+    "test_image_1.jpg": {
+        "has_weapon": true,
+        "weapon_types": ["gun"],
+        "notes": "Person holding a handgun"
+    },
+    "test_image_2.jpg": {
+        "has_weapon": false,
+        "weapon_types": [],
+        "notes": "Person without weapons"
+    },
+    "test_image_3.jpg": {
+        "has_weapon": true,
+        "weapon_types": ["knife"],
+        "notes": "Person with a knife"
+    },
+    "test_image_4.jpg": {
+        "has_weapon": true,
+        "weapon_types": ["rifle"],
+        "notes": "Person with a rifle"
+    },
+    "test_image_5.jpg": {
+        "has_weapon": false,
+        "weapon_types": [],
+        "notes": "Empty scene"
+    }
+} 

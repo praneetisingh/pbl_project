@@ -1,0 +1,43 @@
+# Virtual environments
+venv/
+venv310/
+ANPR_Backend/venv/
+ANPR_Backend/venv310/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+*.pth
+*.keras
+*.h5
+
+# Large libraries
+*.dll
+*.pyd
+*.so
+
+# Dataset folders
+ANPR_Backend/train/
+ANPR_Backend/test/
+ANPR_Backend/test_images/
+ANPR_Backend/uploads/
+
+# Images / videos
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+
+# CSV large outputs
+*.csv
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,148 @@
+{
+    "statistics": {
+        "models": {
+            "yolo": {
+                "detection_rate": 1.0,
+                "avg_confidence": 0.5694,
+                "max_confidence": 0.751,
+                "min_confidence": 0.524
+            },
+            "pytorch": {
+                "detection_rate": 0.8,
+                "avg_confidence": 0.7416,
+                "max_confidence": 0.927,
+                "min_confidence": 0
+            },
+            "keras": {
+                "detection_rate": 0.0,
+                "avg_confidence": 0.0,
+                "max_confidence": 0,
+                "min_confidence": 0
+            }
+        },
+        "total_detections": 5,
+        "total_images": 5
+    },
+    "recent_detections": [
+        {
+            "timestamp": "2025-04-08T23:30:46.592386",
+            "image_name": "images.jpeg",
+            "models": {
+                "yolo": {
+                    "detected": true,
+                    "confidence": 0.751
+                },
+                "pytorch": {
+                    "detected": false,
+                    "confidence": 0
+                },
+                "keras": {
+                    "detected": false,
+                    "confidence": 0
+                }
+            },
+            "agreement": {
+                "count": 1,
+                "percentage": 33.33333333333333,
+                "all_agree": false,
+                "any_detected": true
+            }
+        },
+        {
+            "timestamp": "2025-04-08T23:29:59.024863",
+            "image_name": "istockphoto-871203794-612x612.jpg",
+            "models": {
+                "yolo": {
+                    "detected": true,
+                    "confidence": 0.524
+                },
+                "pytorch": {
+                    "detected": true,
+                    "confidence": 0.927
+                },
+                "keras": {
+                    "detected": false,
+                    "confidence": 0
+                }
+            },
+            "agreement": {
+                "count": 2,
+                "percentage": 66.66666666666666,
+                "all_agree": false,
+                "any_detected": true
+            }
+        },
+        {
+            "timestamp": "2025-04-08T23:22:24.047908",
+            "image_name": "istockphoto-871203794-612x612.jpg",
+            "models": {
+                "yolo": {
+                    "detected": true,
+                    "confidence": 0.524
+                },
+                "pytorch": {
+                    "detected": true,
+                    "confidence": 0.927
+                },
+                "keras": {
+                    "detected": false,
+                    "confidence": 0
+                }
+            },
+            "agreement": {
+                "count": 2,
+                "percentage": 66.66666666666666,
+                "all_agree": false,
+                "any_detected": true
+            }
+        },
+        {
+            "timestamp": "2025-04-08T23:20:21.521022",
+            "image_name": "istockphoto-871203794-612x612.jpg",
+            "models": {
+                "yolo": {
+                    "detected": true,
+                    "confidence": 0.524
+                },
+                "pytorch": {
+                    "detected": true,
+                    "confidence": 0.927
+                },
+                "keras": {
+                    "detected": false,
+                    "confidence": 0
+                }
+            },
+            "agreement": {
+                "count": 2,
+                "percentage": 66.66666666666666,
+                "all_agree": false,
+                "any_detected": true
+            }
+        },
+        {
+            "timestamp": "2025-04-08T23:18:44.964535",
+            "image_name": "istockphoto-871203794-612x612.jpg",
+            "models": {
+                "yolo": {
+                    "detected": true,
+                    "confidence": 0.524
+                },
+                "pytorch": {
+                    "detected": true,
+                    "confidence": 0.927
+                },
+                "keras": {
+                    "detected": false,
+                    "confidence": 0
+                }
+            },
+            "agreement": {
+                "count": 2,
+                "percentage": 66.66666666666666,
+                "all_agree": false,
+                "any_detected": true
+            }
+        }
+    ]
+}

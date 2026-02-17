@@ -1,0 +1,13 @@
+tensorflow
+keras
+fastapi
+uvicorn
+opencv-python
+easyocr
+Pillow
+python-multipart
+ultralytics
+opencv-python
+fastapi
+python-multipart
+websocket
